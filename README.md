@@ -5,6 +5,16 @@
 **Program Description:**
 Create a program that calculates the final grade for a student based on assignments (30%), midterm exam (30%), and final exam (40%). The program should determine if the student passed (≥60%) or failed.
 
+def calculate_final_grade():
+assignment_grade = float(input("Enter the assignment grade (0-100): "))
+    midterm_grade = float(input("Enter the midterm grade (0-100): "))
+    final_exam_grade = float(input("Enter the final exam grade (0-100): "))
+  if final_grade >= 60:
+        print("The student has passed.")
+    else:
+        print("The student has failed.")
+
+
 **Key Features:**
 - Input assignment scores, midterm score, and final exam score
 - Calculate weighted average based on predefined percentages
